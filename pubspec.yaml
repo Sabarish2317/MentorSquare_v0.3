@@ -1,0 +1,93 @@
+name: mentor_square
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  bloc: ^8.1.2
+  easy_date_timeline: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_screenutil: ^5.9.0
+  http: ^1.2.1
+  intl: ^0.19.0
+  json_annotation: ^4.8.1
+  logger: ^2.2.0
+  meta: ^1.9.1
+  pie_chart: ^5.3.2
+  provider: ^6.0.5
+  syncfusion_flutter_barcodes: ^24.1.43
+  syncfusion_flutter_core: ^24.1.43
+  syncfusion_flutter_datagrid: ^24.1.44
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+
+
+  
+  
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/Assets/icons/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: lib/Assets/Fonts/Inter-ExtraBold.ttf
+
+        - asset: lib/Assets/Fonts/Inter-Bold.ttf
+
+        - asset: lib/Assets/Fonts/Inter-Medium.ttf
+
+        - asset: lib/Assets/Fonts/Inter-Regular.ttf
+
+        - asset: lib/Assets/Fonts/Inter-SemiBold.ttf
+
+          style: normal
+
+    - family: Montserrat
+      fonts:
+        - asset: lib/Assets/Fonts/Montserrat-SemiBold.ttf
+
+        - asset: lib/Assets/Fonts/Montserrat-Medium.ttf
+
+        - asset: lib/Assets/Fonts/Montserrat-Regular.ttf
+
+        - asset: lib/Assets/Fonts/Montserrat-Light.ttf
+
+          style: normal
+
