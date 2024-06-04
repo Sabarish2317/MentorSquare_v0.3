@@ -1,29 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:mentor_square/Presentation/Screens/LoginPage/login_screen_page.dart';
+import 'Screens/splash page/splash_screen.dart';
 
 void main() async {
-  runApp(const MentorSquare());
-} //main fucntion
-
-class MentorSquare extends StatefulWidget {
-  const MentorSquare({super.key});
-
-  @override
-  State<MentorSquare> createState() => _MyAppState();
+  runApp(const MainApp());
 }
 
-class _MyAppState extends State<MentorSquare> {
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MentorSquare',
-      home: LoginPage(),
+      home: SplashScreen(),
     );
   }
 }

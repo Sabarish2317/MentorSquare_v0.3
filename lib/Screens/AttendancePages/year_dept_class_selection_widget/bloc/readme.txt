@@ -1,0 +1,2 @@
+******the bloc is created to handle if the params are provided to get the departments based on the year, as the departments 
+are same for all year i didnt add the api request but insted added them locally into the ui***
