@@ -243,7 +243,7 @@ class _AccountsBottomUpState extends State<AccountsBottomUp> {
                                                       CrossAxisAlignment.center,
                                                   children: [
                                                     const Text(
-                                                      'Favourites',
+                                                      'Quick Access',
                                                       style: TextStyle(
                                                         color:
                                                             Color(0xFF00111C),
@@ -318,7 +318,7 @@ class _AccountsBottomUpState extends State<AccountsBottomUp> {
                                               controller: favTextController,
                                               decoration: const InputDecoration(
                                                   labelText:
-                                                      'Enter the Register numbers seperated by commas ',
+                                                      'Enter the Register numbers seperated by commas',
                                                   hintText:
                                                       'Eg: 713522AM081,713522AM092'),
                                             ),
@@ -337,8 +337,8 @@ class _AccountsBottomUpState extends State<AccountsBottomUp> {
                                                       convertToMap(text);
 
                                                   if (favTextController
-                                                          .text.length >
-                                                      10) {
+                                                          .text.length >=
+                                                      0) {
                                                     affFavsBloc.add(
                                                         AffFavsFetchEvent(
                                                             staffId: state

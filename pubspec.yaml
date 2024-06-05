@@ -19,6 +19,7 @@ dependencies:
   logger: ^2.3.0
   meta: ^1.11.0
   syncfusion_flutter_charts: ^25.2.6
+  syncfusion_flutter_datagrid: ^25.2.7
 
 dev_dependencies:
   flutter_lints: null

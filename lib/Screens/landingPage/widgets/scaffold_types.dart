@@ -135,7 +135,7 @@ Widget mainScaffold(int staffId, String name, String regNo,
                                 'lib/Assets/icons/noDataImg.jpg',
                               ),
                               const Text(
-                                'Please add students to favs',
+                                'Please add Students to Quick Access tile',
                                 style: TextStyle(
                                   color: Color(0xFF00111C),
                                   fontSize: 14,
@@ -158,7 +158,7 @@ Widget mainScaffold(int staffId, String name, String regNo,
                       'lib/Assets/icons/noDataImg.jpg',
                     ),
                     const Text(
-                      'Please add students to favs',
+                      'Please add Students to Quick Access tile',
                       style: TextStyle(
                         color: Color(0xFF00111C),
                         fontSize: 14,

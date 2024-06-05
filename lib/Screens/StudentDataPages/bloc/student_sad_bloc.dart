@@ -69,7 +69,7 @@ class StudentSadBloc extends Bloc<StudentSadEvent, StudentSadState> {
 
           studentSad.add(tmpdata);
         }
-        print(studentSad);
+
         emit(StudentSadSuccessState(resultData: studentSad));
       } else if (response.statusCode == 408) {
         emit(StudentSadErrorState(
