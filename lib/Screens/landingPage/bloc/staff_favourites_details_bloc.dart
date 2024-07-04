@@ -48,7 +48,7 @@ class StaffFavouritesDetailsBloc
         });
         print("favs details api : ${response.statusCode}");
         print(
-            'http://$ipAdd:3000/MentorSquare/api/staff/favourites?student_regNos=${event.regNos.toString()}');
+            '$ipAdd/MentorSquare/api/staff/favourites?student_regNos=${event.regNos.toString()}');
         if (response.statusCode == 200) {
           List<StudentDetail> resultData = [];
           final result = jsonDecode(response.body);

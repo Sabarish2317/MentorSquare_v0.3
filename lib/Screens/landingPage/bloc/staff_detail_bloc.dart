@@ -41,7 +41,7 @@ class StaffDetailBloc extends Bloc<StaffDetailEvent, StaffDetailState> {
         } else {
           var response = await client
               .get(Uri.parse(
-                  'http://$ipAdd:3000/MentorSquare/api/staffs?staff_id=${event.staffId}'))
+                  '$ipAdd/MentorSquare/api/staffs?staff_id=${event.staffId}'))
               .timeout(Duration(seconds: 4), onTimeout: () {
             // Return an empty response or handle the timeout error
             return http.Response(

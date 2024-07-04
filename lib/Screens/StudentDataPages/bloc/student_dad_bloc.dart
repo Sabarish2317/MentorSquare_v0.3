@@ -24,8 +24,7 @@ class StudentDadBloc extends Bloc<StudentDadEvent, StudentDadState> {
     var client = http.Client();
 
     try {
-      String apiUrl =
-          'http://$ipAdd:3000/attentiveAid/api/students/Attendance/daily';
+      String apiUrl = '$ipAdd/attentiveAid/api/students/Attendance/daily';
       final response = await http
           .post(
         Uri.parse(apiUrl),

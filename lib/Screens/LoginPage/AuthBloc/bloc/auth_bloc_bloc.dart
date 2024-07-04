@@ -32,7 +32,7 @@ class AuthBlocBloc extends Bloc<AuthBlocEvent, AuthBlocState> {
     var client = http.Client();
     StaffLoginResponseModel loginResponseData = StaffLoginResponseModel();
     try {
-      String apiUrl = 'http://$ipAdd:3000/MentorSquare/api/signin/staff';
+      String apiUrl = '$ipAdd/MentorSquare/api/signin/staff';
 
       print(apiUrl);
       //req and res templates

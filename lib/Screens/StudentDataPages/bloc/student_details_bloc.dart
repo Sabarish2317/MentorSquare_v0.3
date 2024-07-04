@@ -27,7 +27,7 @@ class StudentDetailsBloc
     var client = http.Client();
 
     try {
-      String apiUrl = 'http://$ipAdd:3000/MentorSquare/api/students';
+      String apiUrl = '$ipAdd/MentorSquare/api/students';
       print("trying to get student data");
       final response = await http
           .post(

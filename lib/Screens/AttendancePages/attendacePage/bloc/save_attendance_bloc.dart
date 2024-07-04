@@ -36,7 +36,7 @@ class SaveAttendanceBloc
         emit(SaveAttendanceErrorState(
             errorCode: 503, errorMessage: "No internet connection available"));
       } else {
-        String apiUrl = 'http://$ipAdd:3000/MentorSquare/api/mark_attendance';
+        String apiUrl = '$ipAdd/MentorSquare/api/mark_attendance';
         print("semo no ${event.semNo}");
         final response = await http
             .post(

@@ -47,7 +47,7 @@ class ScheduleBloc extends Bloc<ScheduleEvent, ScheduleState> {
         return;
       } else {
         // Posting an HTTP request
-        String apiUrl = 'http://$ipAdd:3000/MentorSquare/api/schedule';
+        String apiUrl = '$ipAdd/MentorSquare/api/schedule';
 
         final response = await http.post(
           Uri.parse(apiUrl),

@@ -35,7 +35,7 @@ class GetStudentsListBloc
             errorCode: 503, errorMessage: "No internet connection available"));
       } else {
         var response = await client.get(Uri.parse(
-            'http://$ipAdd:3000/MentorSquare/api/students?class_id=${event.classId}'));
+            '$ipAdd/MentorSquare/api/students?class_id=${event.classId}'));
         print("get students list page api : ${response.statusCode}");
 
         if (response.statusCode == 200) {

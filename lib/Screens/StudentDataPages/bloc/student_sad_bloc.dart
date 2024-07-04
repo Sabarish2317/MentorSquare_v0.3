@@ -26,8 +26,7 @@ class StudentSadBloc extends Bloc<StudentSadEvent, StudentSadState> {
     var client = http.Client();
     List<StudentSad> studentSad = [];
     try {
-      String apiUrl =
-          'http://$ipAdd:3000/attentiveAid/api/students/Attendance/subjects';
+      String apiUrl = '$ipAdd/attentiveAid/api/students/Attendance/subjects';
       print("trying to get student subject attednance data");
       final response = await http
           .post(

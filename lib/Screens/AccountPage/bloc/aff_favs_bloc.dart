@@ -40,7 +40,7 @@ class AffFavsBloc extends Bloc<AffFavsEvent, AffFavsState> {
 
     // Send request
     try {
-      String apiUrl = 'http://$ipAdd:3000/MentorSquare/api/staff/favourites';
+      String apiUrl = '$ipAdd/MentorSquare/api/staff/favourites';
 
       final response = await client
           .post(

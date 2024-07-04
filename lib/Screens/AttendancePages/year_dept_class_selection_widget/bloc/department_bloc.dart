@@ -49,7 +49,7 @@ class DepartmentBloc extends Bloc<DepartmentEvent, DepartmentState> {
       try {
         var response = await client
             .get(Uri.parse(
-                "http://$ipAdd:3000/MentorSquare/api/classes?year_name=$selectedYear&dept_id=$selectedDept"))
+                "$ipAdd/MentorSquare/api/classes?year_name=$selectedYear&dept_id=$selectedDept"))
             .timeout(const Duration(seconds: 8), onTimeout: () {
           // Return an empty response or handle the timeout error
           return http.Response(
