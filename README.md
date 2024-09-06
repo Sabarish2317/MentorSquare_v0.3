@@ -2,7 +2,7 @@
 
 Mentor Square is a mobile application designed for mentors, professors, and educators who need to efficiently and securely mark and manage student attendance. This app simplifies the attendance process in colleges and universities and provides features to monitor and review student attendance effectively.
 
-![Screens](https://github.com/Sabarish2317/images-/blob/2a12b2bff36b653f183018fa40b3534efff06fc7/mentor-square-ui.png)
+![Screens](https://github.com/Sabarish2317/images-/blob/878c1fbe07f76b888835c774df9b7d20c757d401/mentor-square-ui.png)
 
 ## Features
 
