@@ -15,7 +15,7 @@ Mentor Square is a mobile application designed for mentors, professors, and educ
 ## Installation
 
 To get started with Mentor Square, follow these steps:
-Note this repositary contains file which needs Server and databases follow https://github.com/Sabarish2317/amAdmiin to setup the server and database files.
+Note this repositary contains file which needs Server and databases follow https://github.com/Sabarish2317/amAdmin to setup the server and database files.
 
 ### Prerequisites
 
